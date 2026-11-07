@@ -1224,16 +1224,16 @@
     <!-- Milestone 1 -->
     <circle cx="20" cy="18" r="5" fill="#0284c7" stroke="#38bdf8" stroke-width="1.5"/>
     <text x="35" y="15" class="timeline-label" fill="#f8fafc">July 2026: Origins</text>
-    <text x="35" y="28" class="timeline-sub">First Commit &bull; project-1 &bull; 98% VIT Jr College</text>
+    <text x="35" y="28" class="timeline-sub">First Commit &#8226; project-1 &#8226; 98% VIT Jr College</text>
 
     <!-- Milestone 2 -->
     <circle cx="270" cy="18" r="5" fill="#0ea5e9" stroke="#38bdf8" stroke-width="1.5"/>
     <text x="285" y="15" class="timeline-label" fill="#f8fafc">August 2026: Full-Stack Expansion</text>
-    <text x="285" y="28" class="timeline-sub">Amazon Clone &bull; Restaurant Ordering App</text>
+    <text x="285" y="28" class="timeline-sub">Amazon Clone &#8226; Restaurant Ordering App</text>
 
     <!-- Milestone 3 -->
     <circle cx="560" cy="18" r="5" fill="#38bdf8" stroke="#f8fafc" stroke-width="1.5" class="pulse-dot"/>
     <text x="575" y="15" class="timeline-label" fill="#38bdf8">November 2026: Peak Sprint</text>
-    <text x="575" y="28" class="timeline-sub">Interactive Neumorphic Portfolio &bull; 131 Contributions</text>
+    <text x="575" y="28" class="timeline-sub">Interactive Neumorphic Portfolio &#8226; 131 Contributions</text>
   </g>
 </svg>
