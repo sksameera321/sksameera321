@@ -2,6 +2,7 @@ name: Dynamic Contribution Visualizers Updater
 
 on:
   schedule:
+    # Run daily at 00:00 UTC
     - cron: "0 0 * * *"
   workflow_dispatch:
   push:
@@ -23,7 +24,7 @@ jobs:
         with:
           node-version: 20
 
-      - name: Fetch Live Metrics and Regenerate Visualizers
+      - name: Fetch Live Metrics and Regenerate All Visualizers
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -33,5 +34,5 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add contribution-calendar.svg contribution-skyline.svg contribution-wave.svg
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(visualizers): auto-update contribution skyline, wave & calendar [skip ci]" && git push)
+          git add contribution-calendar.svg contribution-skyline.svg contribution-wave.svg github-stats.svg top-langs.svg streak-stats.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(visualizers): auto-update dynamic stats, skyline, wave & streak [skip ci]" && git push)
