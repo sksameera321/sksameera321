@@ -136,15 +136,15 @@
 <div align="center">
 
 <!-- Visualizer 1: 3D Isometric City Skyline (Buildings) -->
-<a href="https://raw.githubusercontent.com/sksameera321/sksameera321/main/contribution-skyline.svg">
-  <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/contribution-skyline.svg" alt="The Contribution Skyline &bull; 3D Isometric Metropolis" width="100%" />
+<a href="./contribution-skyline.svg">
+  <img src="./contribution-skyline.svg" alt="The Contribution Skyline &#8226; 3D Isometric Metropolis" width="100%" />
 </a>
 
 <br><br>
 
 <!-- Visualizer 2: Hydrodynamic Ocean Wave -->
-<a href="https://raw.githubusercontent.com/sksameera321/sksameera321/main/contribution-wave.svg">
-  <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/contribution-wave.svg" alt="The Contribution Ocean Wave &bull; Hydrodynamic Flow" width="100%" />
+<a href="./contribution-wave.svg">
+  <img src="./contribution-wave.svg" alt="The Contribution Ocean Wave &#8226; Hydrodynamic Flow" width="100%" />
 </a>
 
 <br><br>
