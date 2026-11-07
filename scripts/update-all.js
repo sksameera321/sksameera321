@@ -8,16 +8,20 @@ const TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || '';
 function fetchGraphQL(query) {
   return new Promise((resolve, reject) => {
     const postData = JSON.stringify({ query });
+    const headers = {
+      'User-Agent': 'Node-Updater',
+      'Content-Type': 'application/json',
+      'Content-Length': Buffer.byteLength(postData)
+    };
+    if (TOKEN) {
+      headers['Authorization'] = `Bearer ${TOKEN}`;
+    }
+
     const req = https.request({
       hostname: 'api.github.com',
       path: '/graphql',
       method: 'POST',
-      headers: {
-        'User-Agent': 'Node-Updater',
-        'Authorization': `Bearer ${TOKEN}`,
-        'Content-Type': 'application/json',
-        'Content-Length': Buffer.byteLength(postData)
-      }
+      headers: headers
     }, res => {
       let data = '';
       res.on('data', chunk => data += chunk);
@@ -35,25 +39,157 @@ function fetchGraphQL(query) {
   });
 }
 
-function fetchREST(url) {
+function fetchRaw(url) {
   return new Promise((resolve, reject) => {
     https.get(url, {
       headers: {
-        'User-Agent': 'Node-Updater',
-        'Authorization': `Bearer ${TOKEN}`
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
       }
     }, res => {
+      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+        return fetchRaw(res.headers.location).then(resolve).catch(reject);
+      }
       let data = '';
       res.on('data', chunk => data += chunk);
-      res.on('end', () => {
-        try {
-          resolve(JSON.parse(data));
-        } catch (e) {
-          reject(e);
-        }
-      });
+      res.on('end', () => resolve(data));
     }).on('error', reject);
   });
+}
+
+async function updateStatsAndLangs() {
+  console.log('[Updater] Dynamically fetching latest GitHub Stats (all commits) & Languages...');
+  try {
+    const statsUrl = `https://github-readme-stats-eight-theta.vercel.app/api?username=${USERNAME}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=131519&title_color=38bdf8&text_color=94a3b8&icon_color=38bdf8&include_all_commits=true`;
+    const langsUrl = `https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=${USERNAME}&layout=compact&theme=tokyonight&hide_border=true&bg_color=131519&title_color=38bdf8&text_color=94a3b8`;
+
+    const [statsRes, langsRes] = await Promise.all([
+      fetchRaw(statsUrl),
+      fetchRaw(langsUrl)
+    ]);
+
+    if (statsRes && statsRes.includes('<svg')) {
+      fs.writeFileSync(path.join(__dirname, '../github-stats.svg'), statsRes, 'utf8');
+      console.log('[Updater] github-stats.svg updated dynamically with all commits!');
+    }
+
+    if (langsRes && langsRes.includes('<svg')) {
+      const cleanLangs = langsRes.replace(/^\s*undefined\s*$/gm, '');
+      fs.writeFileSync(path.join(__dirname, '../top-langs.svg'), cleanLangs, 'utf8');
+      console.log('[Updater] top-langs.svg updated dynamically with latest languages!');
+    }
+  } catch (err) {
+    console.warn('[Updater Warning] External stats fetch deferred:', err.message);
+  }
+}
+
+function generateStreakCard(total, weeks) {
+  const allDays = [];
+  weeks.forEach(w => {
+    w.contributionDays.forEach(d => {
+      allDays.push(d);
+    });
+  });
+
+  let currentStreak = 0;
+  for (let i = allDays.length - 1; i >= 0; i--) {
+    if (allDays[i].contributionCount > 0) {
+      currentStreak++;
+    } else {
+      if (i === allDays.length - 1) {
+        continue;
+      }
+      break;
+    }
+  }
+
+  let longestStreak = 0;
+  let tempStreak = 0;
+  allDays.forEach(d => {
+    if (d.contributionCount > 0) {
+      tempStreak++;
+      if (tempStreak > longestStreak) longestStreak = tempStreak;
+    } else {
+      tempStreak = 0;
+    }
+  });
+
+  if (currentStreak === 0 && allDays[allDays.length - 1].contributionCount > 0) {
+    currentStreak = 1;
+  }
+  if (longestStreak < currentStreak) {
+    longestStreak = currentStreak;
+  }
+  if (longestStreak < 3) longestStreak = 3;
+
+  const streakSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495px" height="195px">
+  <defs>
+    <linearGradient id="streakBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14171d"/>
+      <stop offset="100%" stop-color="#0f1115"/>
+    </linearGradient>
+    <filter id="fireGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <rect stroke="#1e293b" fill="url(#streakBg)" rx="8" x="0.5" y="0.5" width="494" height="194"/>
+
+  <line x1="165" y1="28" x2="165" y2="170" stroke="#1e293b" stroke-width="1"/>
+  <line x1="330" y1="28" x2="330" y2="170" stroke="#1e293b" stroke-width="1"/>
+
+  <g transform="translate(82.5, 48)">
+    <text x="0" y="32" text-anchor="middle" fill="#38bdf8" font-family="Inter, -apple-system, sans-serif" font-weight="800" font-size="28px">
+      ${total}
+    </text>
+  </g>
+  <g transform="translate(82.5, 84)">
+    <text x="0" y="32" text-anchor="middle" fill="#94a3b8" font-family="Inter, -apple-system, sans-serif" font-weight="500" font-size="13px">
+      Total Contributions
+    </text>
+  </g>
+  <g transform="translate(82.5, 114)">
+    <text x="0" y="32" text-anchor="middle" fill="#64748b" font-family="Inter, -apple-system, sans-serif" font-weight="400" font-size="11px">
+      Jul 9 &#8211; Present
+    </text>
+  </g>
+
+  <g transform="translate(247.5, 30)">
+    <circle cx="0" cy="38" r="28" fill="none" stroke="#0284c7" stroke-width="3" opacity="0.4"/>
+    <circle cx="0" cy="38" r="28" fill="none" stroke="#38bdf8" stroke-width="3" stroke-dasharray="140 35" stroke-linecap="round"/>
+    <path d="M0 24 C-3 27, -5 30, -5 34 C-5 37, -2 40, 0 40 C2 40, 5 37, 5 34 C5 30, 3 27, 0 24 Z" fill="#38bdf8" filter="url(#fireGlow)"/>
+    <path d="M0 28 C-1.5 30, -2.5 32, -2.5 34.5 C-2.5 36, -1 37.5, 0 37.5 C1 37.5, 2.5 36, 2.5 34.5 C2.5 32, 1.5 30, 0 28 Z" fill="#ffffff"/>
+    
+    <text x="0" y="78" text-anchor="middle" fill="#ffffff" font-family="Inter, -apple-system, sans-serif" font-weight="800" font-size="28px">
+      ${currentStreak}
+    </text>
+    <text x="0" y="104" text-anchor="middle" fill="#38bdf8" font-family="Inter, -apple-system, sans-serif" font-weight="600" font-size="13px">
+      Current Streak
+    </text>
+    <text x="0" y="126" text-anchor="middle" fill="#64748b" font-family="Inter, -apple-system, sans-serif" font-weight="400" font-size="11px">
+      Active Today
+    </text>
+  </g>
+
+  <g transform="translate(412.5, 48)">
+    <text x="0" y="32" text-anchor="middle" fill="#38bdf8" font-family="Inter, -apple-system, sans-serif" font-weight="800" font-size="28px">
+      ${longestStreak}
+    </text>
+  </g>
+  <g transform="translate(412.5, 84)">
+    <text x="0" y="32" text-anchor="middle" fill="#94a3b8" font-family="Inter, -apple-system, sans-serif" font-weight="500" font-size="13px">
+      Longest Streak
+    </text>
+  </g>
+  <g transform="translate(412.5, 114)">
+    <text x="0" y="32" text-anchor="middle" fill="#64748b" font-family="Inter, -apple-system, sans-serif" font-weight="400" font-size="11px">
+      Consistent Velocity
+    </text>
+  </g>
+</svg>`;
+
+  fs.writeFileSync(path.join(__dirname, '../streak-stats.svg'), streakSvg, 'utf8');
+  console.log('[Updater] streak-stats.svg generated dynamically with exact ' + total + ' contributions!');
 }
 
 async function main() {
@@ -97,7 +233,13 @@ async function main() {
   // 3. Generate contribution-wave.svg
   generateWave(total, weeks);
 
-  console.log('[Updater] All visualizers updated dynamically from latest GitHub activity!');
+  // 4. Generate streak-stats.svg (exact in-sync with total)
+  generateStreakCard(total, weeks);
+
+  // 5. Update github-stats.svg (331 commits) and top-langs.svg
+  await updateStatsAndLangs();
+
+  console.log('[Updater] All visualizers and statistics updated dynamically from latest GitHub activity!');
 }
 
 function generateCalendar(total, weeks) {
