@@ -48,8 +48,8 @@
     <rect x="0" y="0" width="30" height="30" rx="8" fill="#0f172a" stroke="#0284c7" stroke-width="1"/>
     <path d="M7 24 V9 L15 5 V24 M15 13 L23 10 V24 M10 13 H12 M10 17 H12 M18 16 H20 M18 20 H20" fill="none" stroke="#38bdf8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
     
-    <text x="42" y="15" class="title">The Contribution Skyline &bull; 3D Isometric Metropolis</text>
-    <text x="42" y="29" class="subtitle">Every commit raises a neon tower &mdash; from ground zero in July to peak skyline in November</text>
+    <text x="42" y="15" class="title">The Contribution Skyline &#8226; 3D Isometric Metropolis</text>
+    <text x="42" y="29" class="subtitle">Every commit raises a neon tower &#8212; from ground zero in July to peak skyline in November</text>
   </g>
 
   <!-- Header Metric Badges -->
@@ -3102,7 +3102,7 @@
   <!-- Zone Annotation Markers -->
   <g transform="translate(130, 390)">
     <circle cx="0" cy="0" r="3.5" fill="#64748b" />
-    <text x="10" y="4" class="sky-label">Nov 2025 &ndash; Jun 2026: Foundation &amp; Pre-University</text>
+    <text x="10" y="4" class="sky-label">Nov 2025 &#8211; Jun 2026: Foundation &amp; Pre-University</text>
   </g>
 
   <g transform="translate(540, 390)">
