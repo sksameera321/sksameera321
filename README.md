@@ -149,11 +149,11 @@
 
 <br><br>
 
-  <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/github-stats.svg" alt="GitHub Stats" />
+  <img src="./github-stats.svg" alt="GitHub Stats" />
   &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/top-langs.svg" alt="Top Languages" />
+  <img src="./top-langs.svg" alt="Top Languages" />
   <br><br>
-  <img src="https://streak-stats.demolab.com?user=sksameera321&theme=tokyonight&background=131519&border=1e293b&stroke=1e293b&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" alt="GitHub Streak Stats" />
+  <img src="./streak-stats.svg" alt="GitHub Streak Stats" />
 </div>
 
 ---
