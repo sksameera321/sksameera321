@@ -134,6 +134,8 @@
 ### <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/activity.svg" width="20" height="20" valign="middle" /> Engineering Activity & Metrics
 
 <div align="center">
+  <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/contribution-calendar.svg" alt="Engineering Contribution & Velocity Activity" width="100%" />
+  <br><br>
   <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/github-stats.svg" alt="GitHub Stats" />
   &nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/top-langs.svg" alt="Top Languages" />
