@@ -20,6 +20,7 @@
 ### 🌟 About Me
 
 - 💻 **Frontend Focus**: Crafting clean, responsive, and performance-optimized web applications from scratch.
+- 🎓 **Academics**: B.Tech in Computer Science & Engineering (2026 Academic Batch, 1st Year).
 - 🚀 **The Journey**: Started my web development journey authoring [`project-1`](https://github.com/sksameera321/project-1) after scoring 982/1000 in Intermediate & qualifying the state engineering entrance exam. Systematically leveled up from raw HTML/CSS fundamentals into building full-scale e-commerce storefronts, interactive gaming platforms, and tactile Neumorphic design systems.
 - 🎨 **Design Engineering**: Expert in tactile UI paradigms including **Neumorphism (Soft UI)** dual-shadow systems, **Skeuomorphic** physical controls, and **HTML5 Canvas FlowField** particle wind dynamics.
 - 📱 **Responsive & Accessible**: Strict semantic HTML structure, keyboard navigation, and mobile-first layouts.
