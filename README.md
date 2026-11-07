@@ -131,11 +131,24 @@
 
 ---
 
-### <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/activity.svg" width="20" height="20" valign="middle" /> Engineering Activity & Metrics
+### <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/activity.svg" width="20" height="20" valign="middle" /> Engineering Velocity & Activity Visualizers
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/contribution-calendar.svg" alt="Engineering Contribution & Velocity Activity" width="100%" />
-  <br><br>
+
+<!-- Visualizer 1: 3D Isometric City Skyline (Buildings) -->
+<a href="https://raw.githubusercontent.com/sksameera321/sksameera321/main/contribution-skyline.svg">
+  <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/contribution-skyline.svg" alt="The Contribution Skyline &bull; 3D Isometric Metropolis" width="100%" />
+</a>
+
+<br><br>
+
+<!-- Visualizer 2: Hydrodynamic Ocean Wave -->
+<a href="https://raw.githubusercontent.com/sksameera321/sksameera321/main/contribution-wave.svg">
+  <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/contribution-wave.svg" alt="The Contribution Ocean Wave &bull; Hydrodynamic Flow" width="100%" />
+</a>
+
+<br><br>
+
   <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/github-stats.svg" alt="GitHub Stats" />
   &nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/top-langs.svg" alt="Top Languages" />
