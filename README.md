@@ -20,8 +20,8 @@
 ### 🌟 About Me
 
 - 💻 **Frontend Focus**: Crafting clean, responsive, and performance-optimized web applications from scratch.
-- 🎓 **Academics**: B.Tech in Computer Science & Engineering (2026 Academic Batch, 1st Year).
-- 🚀 **The Journey**: Began my frontend journey four months ago (July 2026) authoring [`project-1`](https://github.com/sksameera321/project-1) after scoring 982/1000 in Intermediate & entering 1st year B.Tech in CSE. Within 4 months of intensive building, engineered 6+ practical web applications from scratch, including an Amazon storefront clone, restaurant dining portal, arcade gaming hub, and tactile Neumorphic design systems.
+- 🎓 **Academics**: B.Tech in Computer Science & Engineering (First Year, Expected 2029–30) at [Shri Vishnu Engineering College for Women (SVECW)](https://www.linkedin.com/school/15124808/), Bhimavaram | Intermediate: 98% (982/1000) at VIT Junior College (AP EAMCET Qualified).
+- 🚀 **The Journey**: Began my frontend journey four months ago (July 2026) authoring [`project-1`](https://github.com/sksameera321/project-1) after scoring 98% in Intermediate at VIT Junior College & entering 1st year B.Tech at SVECW. Within 4 months of intensive building, engineered 6+ practical web applications from scratch, including an Amazon storefront clone, restaurant dining portal, arcade gaming hub, and tactile Neumorphic design systems.
 - 🎨 **Design Engineering**: Expert in tactile UI paradigms including **Neumorphism (Soft UI)** dual-shadow systems, **Skeuomorphic** physical controls, and **HTML5 Canvas FlowField** particle wind dynamics.
 - 📱 **Responsive & Accessible**: Strict semantic HTML structure, keyboard navigation, and mobile-first layouts.
 - 📍 **Location**: India (Open to full-time remote engineering roles globally).
