@@ -68,8 +68,8 @@
     <rect x="0" y="0" width="30" height="30" rx="8" fill="#0f172a" stroke="#0284c7" stroke-width="1"/>
     <path d="M5 16 C8 13, 11 13, 14 16 C17 19, 20 19, 25 16 M5 21 C8 18, 11 18, 14 21 C17 24, 20 24, 25 21" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round"/>
     
-    <text x="42" y="15" class="title">The Contribution Ocean Wave &bull; Hydrodynamic Flow</text>
-    <text x="42" y="29" class="subtitle">Git commit momentum visualized as fluid wave harmonics &mdash; gentle pre-university swell into a surging tidal wave</text>
+    <text x="42" y="15" class="title">The Contribution Ocean Wave &#8226; Hydrodynamic Flow</text>
+    <text x="42" y="29" class="subtitle">Git commit momentum visualized as fluid wave harmonics &#8212; gentle pre-university swell into a surging tidal wave</text>
   </g>
 
   <!-- Metric Badges -->
@@ -161,7 +161,7 @@
 
   <g transform="translate(130, 390)">
     <circle cx="0" cy="0" r="3.5" fill="#64748b" />
-    <text x="10" y="4" class="wave-label">Nov 2025 &ndash; Jun 2026: Calm Ocean Waters (Academics &amp; VIT Jr College 98%)</text>
+    <text x="10" y="4" class="wave-label">Nov 2025 &#8211; Jun 2026: Calm Ocean Waters (Academics &amp; VIT Jr College 98%)</text>
   </g>
 
   <g transform="translate(560, 390)">
