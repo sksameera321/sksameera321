@@ -134,9 +134,11 @@
 ### 📊 GitHub Activity & Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sksameera321&show_icons=true&theme=tokyonight&hide_border=true&bg_color=131519&title_color=38bdf8&text_color=94a3b8&icon_color=38bdf8" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/github-stats.svg" alt="GitHub Stats" />
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sksameera321&layout=compact&theme=tokyonight&hide_border=true&bg_color=131519&title_color=38bdf8&text_color=94a3b8" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/top-langs.svg" alt="Top Languages" />
+  <br><br>
+  <img src="https://streak-stats.demolab.com?user=sksameera321&theme=tokyonight&background=131519&border=1e293b&stroke=1e293b&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" alt="GitHub Streak Stats" />
 </div>
 
 ---
