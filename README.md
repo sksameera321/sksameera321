@@ -22,7 +22,7 @@
   <img src="https://img.shields.io/badge/Academics-1st_Year_B.Tech_CSE_@_SVECW-0f172a?style=flat-square&logo=book&logoColor=38bdf8" alt="B.Tech" />
   <img src="https://img.shields.io/badge/Intermediate-98%25_(982%2F1000)_VIT_Jr_College-0f172a?style=flat-square&logo=award&logoColor=38bdf8" alt="Intermediate" />
   <img src="https://img.shields.io/badge/Sprint-4_Months_Intensive_Frontend-0f172a?style=flat-square&logo=clock&logoColor=38bdf8" alt="Sprint" />
-  <img src="https://img.shields.io/badge/Shipped-7%2B_Web_Applications-0f172a?style=flat-square&logo=git&logoColor=38bdf8" alt="Projects" />
+  <img src="https://img.shields.io/badge/Shipped-8%2B_Web_Applications-0f172a?style=flat-square&logo=git&logoColor=38bdf8" alt="Projects" />
 </p>
 
 </div>
@@ -164,6 +164,25 @@
         <a href="https://sksameera321.github.io/recipe-discovery/"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/external-link.svg" width="14" height="14" valign="middle" /> <b>Live Demo</b></a> &#8226;
         <a href="https://github.com/sksameera321/recipe-discovery"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a>
       </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/sparkles.svg" width="18" height="18" valign="middle" /> <a href="https://sksameera321.github.io/nova-ecommerce/">NOVA Atelier – Modern E-Commerce Experience</a></h3>
+      <p>Luxury fashion, Swiss horology & artisanal leather boutique built with React 19, Vite, and DummyJSON REST API. Features instant debounced search modal, multi-faceted filtering, dynamic servings/size variant scaler, slide-over bag drawer with free shipping progress meter, promotional discount engine, 3-step simulated checkout, and printable order confirmation.</p>
+      <p><strong>Stack:</strong> <code>React 19</code> &#8226; <code>Vite</code> &#8226; <code>React Router</code> &#8226; <code>Context API</code> &#8226; <code>DummyJSON API</code> &#8226; <code>LocalStorage</code></p>
+      <p>
+        <a href="https://sksameera321.github.io/nova-ecommerce/"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/external-link.svg" width="14" height="14" valign="middle" /> <b>Live Demo</b></a> &#8226;
+        <a href="https://github.com/sksameera321/nova-ecommerce"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <div align="center">
+        <br />
+        <a href="https://sksameera321.github.io/nova-ecommerce/">
+          <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&auto=format&fit=crop&q=80" width="100%" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.15);" alt="NOVA Atelier Preview" />
+        </a>
+      </div>
     </td>
   </tr>
 </table>
