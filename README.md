@@ -129,8 +129,8 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/activity.svg" width="18" height="18" valign="middle" /> <a href="https://sksameera321.github.io/personal-productivity-dashboard/">Capitalio FocusFlow OS</a></h3>
-      <p>Capitalio-inspired productivity engine featuring SVG area velocity charts, priority donut distributions, weekly calendar schedule strip, and dual dark/light themes.</p>
+      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/activity.svg" width="18" height="18" valign="middle" /> <a href="https://sksameera321.github.io/personal-productivity-dashboard/">FocusFlow OS</a></h3>
+      <p>Premier personal productivity operating system featuring frosted Glassmorphism, SVG area velocity charts, priority donut distributions, weekly calendar schedule strip, and dual dark/light themes.</p>
       <p><strong>Stack:</strong> <code>Vanilla JS</code> &#8226; <code>CSS3 Grid/Flexbox</code> &#8226; <code>SVG Geometry</code> &#8226; <code>LocalStorage</code></p>
       <p>
         <a href="https://sksameera321.github.io/personal-productivity-dashboard/"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/external-link.svg" width="14" height="14" valign="middle" /> <b>Live Demo</b></a> &#8226;
