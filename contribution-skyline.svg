@@ -32,7 +32,7 @@
   <g transform="translate(560, 28)">
     <rect x="0" y="0" width="165" height="28" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="0.8"/>
     <circle cx="14" cy="14" r="4" fill="#38bdf8"/>
-    <text x="26" y="19" class="badge-pill"><tspan class="metric-number">229</tspan> Commits Shipped</text>
+    <text x="26" y="19" class="badge-pill"><tspan class="metric-number">237</tspan> Commits Shipped</text>
 
     <rect x="175" y="0" width="155" height="28" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="0.8"/>
     <text x="187" y="19" class="badge-pill" fill="#bae6fd">4-Month City Riser</text>
@@ -1924,9 +1924,9 @@
     <polygon points="842,91.4 850.5,93.92 844,97.7 835.5,95.18" fill="#181d26" stroke="#1e2633" stroke-width="0.5" />
   </g>
   <g class="building">
-    <polygon points="835.5,10.90000000000001 842,7.120000000000008 842,102.12 835.5,105.9" fill="#0284c7" stroke="#ffffff" stroke-width="0.3" />
-    <polygon points="827,8.38000000000001 835.5,10.90000000000001 835.5,105.9 827,103.38000000000001" fill="#38bdf8" stroke="#ffffff" stroke-width="0.3" />
-    <polygon points="833.5,4.6000000000000085 842,7.120000000000008 835.5,10.90000000000001 827,8.38000000000001" fill="#7dd3fc" stroke="#ffffff" stroke-width="0.5" />
+    <polygon points="835.5,-39.099999999999994 842,-42.87999999999999 842,102.12 835.5,105.9" fill="#0284c7" stroke="#ffffff" stroke-width="0.3" />
+    <polygon points="827,-41.61999999999999 835.5,-39.099999999999994 835.5,105.9 827,103.38000000000001" fill="#38bdf8" stroke="#ffffff" stroke-width="0.3" />
+    <polygon points="833.5,-45.39999999999999 842,-42.87999999999999 835.5,-39.099999999999994 827,-41.61999999999999" fill="#7dd3fc" stroke="#ffffff" stroke-width="0.5" />
     <circle cx="832.5" cy="91.60000000000001" r="0.9" fill="#ffffff" opacity="0.8"/>
     <circle cx="838.5" cy="90.60000000000001" r="0.9" fill="#ffffff" opacity="0.9"/>
     <circle cx="832.5" cy="81.60000000000001" r="0.9" fill="#ffffff" opacity="0.8"/>
@@ -1941,9 +1941,19 @@
     <circle cx="838.5" cy="40.60000000000001" r="0.9" fill="#ffffff" opacity="0.9"/>
     <circle cx="832.5" cy="31.60000000000001" r="0.9" fill="#ffffff" opacity="0.8"/>
     <circle cx="838.5" cy="30.60000000000001" r="0.9" fill="#ffffff" opacity="0.9"/>
-    <line x1="833.5" y1="4.6000000000000085" x2="833.5" y2="-20.39999999999999" stroke="#ffffff" stroke-width="1.2" />
-    <circle cx="833.5" cy="-21.39999999999999" r="3" fill="#38bdf8" filter="url(#beaconGlow)" />
-    <circle cx="833.5" cy="-21.39999999999999" r="1.5" fill="#ffffff" />
+    <circle cx="832.5" cy="21.60000000000001" r="0.9" fill="#ffffff" opacity="0.8"/>
+    <circle cx="838.5" cy="20.60000000000001" r="0.9" fill="#ffffff" opacity="0.9"/>
+    <circle cx="832.5" cy="11.600000000000009" r="0.9" fill="#ffffff" opacity="0.8"/>
+    <circle cx="838.5" cy="10.600000000000009" r="0.9" fill="#ffffff" opacity="0.9"/>
+    <circle cx="832.5" cy="1.6000000000000085" r="0.9" fill="#ffffff" opacity="0.8"/>
+    <circle cx="838.5" cy="0.6000000000000085" r="0.9" fill="#ffffff" opacity="0.9"/>
+    <circle cx="832.5" cy="-8.399999999999991" r="0.9" fill="#ffffff" opacity="0.8"/>
+    <circle cx="838.5" cy="-9.399999999999991" r="0.9" fill="#ffffff" opacity="0.9"/>
+    <circle cx="832.5" cy="-18.39999999999999" r="0.9" fill="#ffffff" opacity="0.8"/>
+    <circle cx="838.5" cy="-19.39999999999999" r="0.9" fill="#ffffff" opacity="0.9"/>
+    <line x1="833.5" y1="-45.39999999999999" x2="833.5" y2="-70.39999999999999" stroke="#ffffff" stroke-width="1.2" />
+    <circle cx="833.5" cy="-71.39999999999999" r="3" fill="#38bdf8" filter="url(#beaconGlow)" />
+    <circle cx="833.5" cy="-71.39999999999999" r="1.5" fill="#ffffff" />
   </g>
 
   </g>
@@ -1960,6 +1970,6 @@
 
   <g transform="translate(710, 390)">
     <circle cx="0" cy="0" r="4" fill="#38bdf8" />
-    <text x="10" y="4" class="city-zone" fill="#7dd3fc">Peak Skyscraper (229 Commits)</text>
+    <text x="10" y="4" class="city-zone" fill="#7dd3fc">Peak Skyscraper (237 Commits)</text>
   </g>
 </svg>
