@@ -146,6 +146,25 @@
       </p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/sparkles.svg" width="18" height="18" valign="middle" /> <a href="https://sksameera321.github.io/weather-application/">Atmosphere — Real-Time Weather Explorer</a></h3>
+      <p>Apple Weather-inspired live meteorological dashboard powered by Open-Meteo REST APIs. Features dynamic atmospheric sky themes, 24-hour horizontal hourly slider, 7-day Apple temperature spectrum bars, meteorological bento grid (UV, wind compass, solar arc), and resilient CORS fallback architecture.</p>
+      <p><strong>Stack:</strong> <code>Vanilla JS (ES6)</code> • <code>CSS3 Grid/Flexbox</code> • <code>Open-Meteo API</code> • <code>LocalStorage</code></p>
+      <p>
+        <a href="https://sksameera321.github.io/weather-application/"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/external-link.svg" width="14" height="14" valign="middle" /> <b>Live Demo</b></a> &bull;
+        <a href="https://github.com/sksameera321/weather-application"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <div align="center">
+        <br />
+        <a href="https://sksameera321.github.io/weather-application/">
+          <img src="https://images.unsplash.com/photo-1592210454359-9043f067919b?w=600&auto=format&fit=crop&q=80" width="100%" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.15);" alt="Atmosphere Weather Explorer Preview" />
+        </a>
+      </div>
+    </td>
+  </tr>
 </table>
 
 ---
