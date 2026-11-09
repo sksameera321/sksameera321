@@ -127,6 +127,25 @@
       </p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/activity.svg" width="18" height="18" valign="middle" /> <a href="https://sksameera321.github.io/personal-productivity-dashboard/">FocusFlow Personal Productivity</a></h3>
+      <p>Apple-inspired personal dashboard with weekly schedule strip, priority task management, daily goals, SVG progress ring, and zero-dependency LocalStorage persistence.</p>
+      <p><strong>Stack:</strong> <code>Vanilla JS</code> &#8226; <code>CSS3 Grid/Flexbox</code> &#8226; <code>SVG Geometry</code> &#8226; <code>LocalStorage</code></p>
+      <p>
+        <a href="https://sksameera321.github.io/personal-productivity-dashboard/"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/external-link.svg" width="14" height="14" valign="middle" /> <b>Live Demo</b></a> &#8226;
+        <a href="https://github.com/sksameera321/personal-productivity-dashboard"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/code.svg" width="18" height="18" valign="middle" /> <a href="https://github.com/sksameera321/project-1">Foundation Web Architecture</a></h3>
+      <p>Initial frontend engineering project establishing core semantic DOM tree structures, fluid viewport scaling, responsive layouts, and cross-browser styling baseline.</p>
+      <p><strong>Stack:</strong> <code>HTML5</code> &#8226; <code>CSS3</code> &#8226; <code>Responsive Layouts</code></p>
+      <p>
+        <a href="https://github.com/sksameera321/project-1"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a>
+      </p>
+    </td>
+  </tr>
 </table>
 
 ---
