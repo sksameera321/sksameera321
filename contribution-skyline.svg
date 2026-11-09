@@ -1923,6 +1923,11 @@
     <polygon points="835.5,95.18 844,97.7 844,100.7 835.5,98.18" fill="#12161e" stroke="#1e2633" stroke-width="0.3" />
     <polygon points="842,91.4 850.5,93.92 844,97.7 835.5,95.18" fill="#181d26" stroke="#1e2633" stroke-width="0.5" />
   </g>
+  <g class="building">
+    <polygon points="835.5,102.9 842,99.12 842,102.12 835.5,105.9" fill="#0f1218" stroke="#1e2633" stroke-width="0.3" />
+    <polygon points="827,100.38000000000001 835.5,102.9 835.5,105.9 827,103.38000000000001" fill="#12161e" stroke="#1e2633" stroke-width="0.3" />
+    <polygon points="833.5,96.60000000000001 842,99.12 835.5,102.9 827,100.38000000000001" fill="#181d26" stroke="#1e2633" stroke-width="0.5" />
+  </g>
 
   </g>
 
