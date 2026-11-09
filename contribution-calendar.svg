@@ -40,7 +40,7 @@
   <g transform="translate(515, 28)">
     <rect x="0" y="0" width="165" height="26" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="0.8"/>
     <circle cx="12" cy="13" r="4" fill="#38bdf8" class="pulse-dot"/>
-    <text x="24" y="17" class="badge-text"><tspan font-weight="800" fill="#f8fafc">210</tspan> Contributions</text>
+    <text x="24" y="17" class="badge-text"><tspan font-weight="800" fill="#f8fafc">216</tspan> Contributions</text>
 
     <rect x="175" y="0" width="160" height="26" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="0.8"/>
     <text x="187" y="17" class="badge-text" fill="#a5f3fc">4-Month Intensive Sprint</text>
@@ -1165,7 +1165,7 @@
       <title>2026-11-08: 0 contributions</title>
     </rect>
   <rect x="767" y="108.5" width="10" height="10" rx="2.5" fill="#38bdf8" stroke="#38bdf8" stroke-width="0.8">
-      <title>2026-11-09: 20 contributions</title>
+      <title>2026-11-09: 26 contributions</title>
     </rect>
 
   </g>
@@ -1191,6 +1191,6 @@
 
     <circle cx="560" cy="18" r="5" fill="#38bdf8" stroke="#f8fafc" stroke-width="1.5" class="pulse-dot"/>
     <text x="575" y="15" class="timeline-label" fill="#38bdf8">November 2026: Peak Sprint</text>
-    <text x="575" y="28" class="timeline-sub">Interactive Neumorphic Portfolio &#8226; 210 Contributions</text>
+    <text x="575" y="28" class="timeline-sub">Interactive Neumorphic Portfolio &#8226; 216 Contributions</text>
   </g>
 </svg>
