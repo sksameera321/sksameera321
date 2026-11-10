@@ -32,7 +32,7 @@
   <g transform="translate(560, 28)">
     <rect x="0" y="0" width="165" height="28" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="0.8"/>
     <circle cx="14" cy="14" r="4" fill="#38bdf8"/>
-    <text x="26" y="19" class="badge-pill"><tspan class="metric-number">244</tspan> Commits Shipped</text>
+    <text x="26" y="19" class="badge-pill"><tspan class="metric-number">252</tspan> Commits Shipped</text>
 
     <rect x="175" y="0" width="155" height="28" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="0.8"/>
     <text x="187" y="19" class="badge-pill" fill="#bae6fd">4-Month City Riser</text>
@@ -1955,6 +1955,11 @@
     <circle cx="833.5" cy="-71.39999999999999" r="3" fill="#38bdf8" filter="url(#beaconGlow)" />
     <circle cx="833.5" cy="-71.39999999999999" r="1.5" fill="#ffffff" />
   </g>
+  <g class="building">
+    <polygon points="827,108.10000000000001 833.5,104.32000000000001 833.5,107.32000000000001 827,111.10000000000001" fill="#0f1218" stroke="#1e2633" stroke-width="0.3" />
+    <polygon points="818.5,105.58000000000001 827,108.10000000000001 827,111.10000000000001 818.5,108.58000000000001" fill="#12161e" stroke="#1e2633" stroke-width="0.3" />
+    <polygon points="825,101.80000000000001 833.5,104.32000000000001 827,108.10000000000001 818.5,105.58000000000001" fill="#181d26" stroke="#1e2633" stroke-width="0.5" />
+  </g>
 
   </g>
 
@@ -1970,6 +1975,6 @@
 
   <g transform="translate(710, 390)">
     <circle cx="0" cy="0" r="4" fill="#38bdf8" />
-    <text x="10" y="4" class="city-zone" fill="#7dd3fc">Peak Skyscraper (244 Commits)</text>
+    <text x="10" y="4" class="city-zone" fill="#7dd3fc">Peak Skyscraper (252 Commits)</text>
   </g>
 </svg>

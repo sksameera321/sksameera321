@@ -52,7 +52,7 @@
   <g transform="translate(560, 28)">
     <rect x="0" y="0" width="165" height="28" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="0.8"/>
     <circle cx="14" cy="14" r="4" fill="#38bdf8"/>
-    <text x="26" y="19" class="badge-pill"><tspan class="metric-number">244</tspan> Tidal Surge Commits</text>
+    <text x="26" y="19" class="badge-pill"><tspan class="metric-number">252</tspan> Tidal Surge Commits</text>
 
     <rect x="175" y="0" width="155" height="28" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="0.8"/>
     <text x="187" y="19" class="badge-pill" fill="#bae6fd">4-Month Ocean Swell</text>
@@ -136,6 +136,6 @@
 
   <g transform="translate(720, 390)">
     <circle cx="0" cy="0" r="4" fill="#38bdf8" />
-    <text x="10" y="4" class="wave-highlight" fill="#7dd3fc">Peak Tidal Crest (244 Commits)</text>
+    <text x="10" y="4" class="wave-highlight" fill="#7dd3fc">Peak Tidal Crest (252 Commits)</text>
   </g>
 </svg>
