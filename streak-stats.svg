@@ -17,7 +17,7 @@
 
   <g transform="translate(82.5, 48)">
     <text x="0" y="32" text-anchor="middle" fill="#38bdf8" font-family="Inter, -apple-system, sans-serif" font-weight="800" font-size="28px">
-      252
+      254
     </text>
   </g>
   <g transform="translate(82.5, 84)">
@@ -38,7 +38,7 @@
     <path d="M0 28 C-1.5 30, -2.5 32, -2.5 34.5 C-2.5 36, -1 37.5, 0 37.5 C1 37.5, 2.5 36, 2.5 34.5 C2.5 32, 1.5 30, 0 28 Z" fill="#ffffff"/>
     
     <text x="0" y="78" text-anchor="middle" fill="#ffffff" font-family="Inter, -apple-system, sans-serif" font-weight="800" font-size="28px">
-      0
+      1
     </text>
     <text x="0" y="104" text-anchor="middle" fill="#38bdf8" font-family="Inter, -apple-system, sans-serif" font-weight="600" font-size="13px">
       Current Streak
