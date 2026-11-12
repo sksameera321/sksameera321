@@ -2,7 +2,7 @@
 
 <!-- Animated Header Typing SVG (Clean Professional Typography) -->
 <a href="https://sksameera321.github.io/interactive-resume-portfolio/">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=28&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&height=60&lines=Sameera+Bhanu;Frontend+Developer+%26+UI+Engineer;1st+Year+B.Tech+CSE+%40+SVECW+Bhimavaram;Tactile+Neumorphic+%26+Interactive+Web+Systems" alt="Sameera Bhanu Typing Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=28&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&height=60&lines=Sameera+Bhanu;Frontend+Developer+%26+UI+Engineer;1st+Year+B.Tech+IT+%40+SVECW+Bhimavaram;Tactile+Neumorphic+%26+Interactive+Web+Systems" alt="Sameera Bhanu Typing Header" />
 </a>
 
 <p align="center">
@@ -19,10 +19,10 @@
 
 <!-- Metric Highlights -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Academics-1st_Year_B.Tech_CSE_@_SVECW-0f172a?style=flat-square&logo=book&logoColor=38bdf8" alt="B.Tech" />
+  <img src="https://img.shields.io/badge/Academics-1st_Year_B.Tech_IT_@_SVECW-0f172a?style=flat-square&logo=book&logoColor=38bdf8" alt="B.Tech" />
   <img src="https://img.shields.io/badge/Intermediate-98%25_(982%2F1000)_VIT_Jr_College-0f172a?style=flat-square&logo=award&logoColor=38bdf8" alt="Intermediate" />
   <img src="https://img.shields.io/badge/Sprint-4_Months_Intensive_Frontend-0f172a?style=flat-square&logo=clock&logoColor=38bdf8" alt="Sprint" />
-  <img src="https://img.shields.io/badge/Shipped-8%2B_Web_Applications-0f172a?style=flat-square&logo=git&logoColor=38bdf8" alt="Projects" />
+  <img src="https://img.shields.io/badge/Shipped-6%2B_Web_Applications-0f172a?style=flat-square&logo=git&logoColor=38bdf8" alt="Projects" />
 </p>
 
 </div>
@@ -33,7 +33,7 @@
 
 > *"Great frontend engineering is where clean architecture meets tactile craftsmanship."*
 
-- <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/graduation-cap.svg" width="16" height="16" valign="middle" /> **Undergraduate Education**: 1st-Year B.Tech student in Computer Science & Engineering at **[Shri Vishnu Engineering College for Women (SVECW)](https://www.linkedin.com/school/15124808/)**, Bhimavaram *(Expected Graduation: 2029–30)*.
+- <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/graduation-cap.svg" width="16" height="16" valign="middle" /> **Undergraduate Education**: 1st-Year B.Tech student in Information Technology at **[Shri Vishnu Engineering College for Women (SVECW)](https://www.linkedin.com/school/15124808/)**, Bhimavaram *(Expected Graduation: 2029–30)*.
 - <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/timer.svg" width="16" height="16" valign="middle" /> **Accelerated Trajectory**: Began focused frontend engineering in July 2026 authoring [`project-1`](https://github.com/sksameera321/project-1) after achieving **98% (982/1000)** in Intermediate at VIT Junior College and qualifying AP EAMCET. Over a 4-month development sprint, engineered and deployed 6+ full-featured web applications.
 - <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/layers.svg" width="16" height="16" valign="middle" /> **Tactile Design Systems**: Dedicated to physical UI paradigms &mdash; **Neumorphism (Soft UI)** dual-shadow systems, skeuomorphic physical controls, and **HTML5 Canvas FlowField** vector particles.
 - <img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/cpu.svg" width="16" height="16" valign="middle" /> **Core Principles**: Semantic HTML5 accessibility (a11y), responsive mobile-first architecture, zero runtime bloat, and performant vanilla JavaScript.
@@ -125,64 +125,6 @@
         <a href="https://github.com/sksameera321/my-game-project"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a> &bull;
         <a href="https://drive.google.com/file/d/10ZMaAQo4xXNs3P36zQYvPwB21Pd2r3Fh/view"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/video.svg" width="14" height="14" valign="middle" /> <b>Video Demo (0:31)</b></a>
       </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/activity.svg" width="18" height="18" valign="middle" /> <a href="https://sksameera321.github.io/personal-productivity-dashboard/">FocusFlow OS</a></h3>
-      <p>Premier personal productivity operating system featuring frosted Glassmorphism, tactile Skeuomorphism, SVG area velocity charts, priority donut distributions, weekly calendar schedule strip, and dual dark/light themes.</p>
-      <p><strong>Stack:</strong> <code>Vanilla JS</code> &#8226; <code>CSS3 Grid/Flexbox</code> &#8226; <code>SVG Geometry</code> &#8226; <code>LocalStorage</code></p>
-      <p>
-        <a href="https://sksameera321.github.io/personal-productivity-dashboard/"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/external-link.svg" width="14" height="14" valign="middle" /> <b>Live Demo</b></a> &#8226;
-        <a href="https://github.com/sksameera321/personal-productivity-dashboard"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/code.svg" width="18" height="18" valign="middle" /> <a href="https://github.com/sksameera321/project-1">Foundation Web Architecture</a></h3>
-      <p>Initial frontend engineering project establishing core semantic DOM tree structures, fluid viewport scaling, responsive layouts, and cross-browser styling baseline.</p>
-      <p><strong>Stack:</strong> <code>HTML5</code> &#8226; <code>CSS3</code> &#8226; <code>Responsive Layouts</code></p>
-      <p>
-        <a href="https://github.com/sksameera321/project-1"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/sparkles.svg" width="18" height="18" valign="middle" /> <a href="https://sksameera321.github.io/weather-application/">Atmosphere — Real-Time Weather Explorer</a></h3>
-      <p>Apple Weather-inspired live meteorological dashboard powered by Open-Meteo REST APIs. Features dynamic atmospheric sky themes, 24-hour horizontal hourly slider, 7-day Apple temperature spectrum bars, meteorological bento grid (UV, wind compass, solar arc), and resilient CORS fallback architecture.</p>
-      <p><strong>Stack:</strong> <code>Vanilla JS (ES6)</code> • <code>CSS3 Grid/Flexbox</code> • <code>Open-Meteo API</code> • <code>LocalStorage</code></p>
-      <p>
-        <a href="https://sksameera321.github.io/weather-application/"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/external-link.svg" width="14" height="14" valign="middle" /> <b>Live Demo</b></a> &bull;
-        <a href="https://github.com/sksameera321/weather-application"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a>
-      </p>
-    </td>
-        <td width="50%" valign="top">
-      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/sparkles.svg" width="18" height="18" valign="middle" /> <a href="https://sksameera321.github.io/recipe-discovery/">Savoria – Culinary Explorer</a></h3>
-      <p>Artisan recipe discovery platform & interactive cooking assistant powered by DummyJSON REST API. Features debounced multi-filtering, dynamic servings scaler, interactive ingredient checklist, Cook Mode with Web Audio synthesizer timer, and saved recipe drawer.</p>
-      <p><strong>Stack:</strong> <code>Vanilla JS (ES6)</code> &#8226; <code>CSS3 Tactile Skeuomorphism</code> &#8226; <code>DummyJSON API</code> &#8226; <code>Web Audio API</code></p>
-      <p>
-        <a href="https://sksameera321.github.io/recipe-discovery/"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/external-link.svg" width="14" height="14" valign="middle" /> <b>Live Demo</b></a> &#8226;
-        <a href="https://github.com/sksameera321/recipe-discovery"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/sparkles.svg" width="18" height="18" valign="middle" /> <a href="https://sksameera321.github.io/nova-ecommerce/">NOVA Atelier – Modern E-Commerce Experience</a></h3>
-      <p>Luxury fashion, Swiss horology & artisanal leather boutique built with React 19, Vite, and DummyJSON REST API. Features instant debounced search modal, multi-faceted filtering, dynamic servings/size variant scaler, slide-over bag drawer with free shipping progress meter, promotional discount engine, 3-step simulated checkout, and printable order confirmation.</p>
-      <p><strong>Stack:</strong> <code>React 19</code> &#8226; <code>Vite</code> &#8226; <code>React Router</code> &#8226; <code>Context API</code> &#8226; <code>DummyJSON API</code> &#8226; <code>LocalStorage</code></p>
-      <p>
-        <a href="https://sksameera321.github.io/nova-ecommerce/"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/external-link.svg" width="14" height="14" valign="middle" /> <b>Live Demo</b></a> &#8226;
-        <a href="https://github.com/sksameera321/nova-ecommerce"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <div align="center">
-        <br />
-        <a href="https://sksameera321.github.io/nova-ecommerce/">
-          <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&auto=format&fit=crop&q=80" width="100%" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.15);" alt="NOVA Atelier Preview" />
-        </a>
-      </div>
     </td>
   </tr>
 </table>
