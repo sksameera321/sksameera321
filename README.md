@@ -73,57 +73,56 @@
       <p><strong>Stack:</strong> <code>Vanilla JS</code> • <code>CSS3 Neumorphism</code> • <code>Canvas API</code> • <code>SEO/AEO</code></p>
       <p>
         <a href="https://sksameera321.github.io/interactive-resume-portfolio/"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/external-link.svg" width="14" height="14" valign="middle" /> <b>Live Demo</b></a> &bull;
-        <a href="https://github.com/sksameera321/interactive-resume-portfolio"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a> &bull;
-        <a href="https://drive.google.com/file/d/1OWFJUhRv1ZI_E-PanuBKt-h2xUL3qeXV/view"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/video.svg" width="14" height="14" valign="middle" /> <b>Video Demo (0:37)</b></a>
+        <a href="https://github.com/sksameera321/interactive-resume-portfolio"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/shopping-bag.svg" width="18" height="18" valign="middle" /> <a href="https://github.com/sksameera321/my-amazon-project">Amazon Storefront Architecture</a></h3>
-      <p>High-fidelity e-commerce clone featuring interactive catalog navigation, category search filtering, shopping cart state persistence via LocalStorage, and responsive checkout flows.</p>
-      <p><strong>Stack:</strong> <code>HTML5</code> • <code>CSS3 Flexbox</code> • <code>JavaScript</code> • <code>LocalStorage</code></p>
+      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/graduation-cap.svg" width="18" height="18" valign="middle" /> <a href="https://sksameera321.github.io/learnova-lms/">LEARNOVA — Learning Management Platform</a></h3>
+      <p>Next-gen LMS featuring an interactive video theatre, auto-saving lesson scratchpad, randomized certification exam engine (75% pass mark), and verifiable diploma generator.</p>
+      <p><strong>Stack:</strong> <code>React 19</code> • <code>Vite</code> • <code>React Router</code> • <code>LocalStorage</code></p>
       <p>
-        <a href="https://github.com/sksameera321/my-amazon-project"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a> &bull;
-        <a href="https://drive.google.com/file/d/1vBxMT2haRQDCjNWgYsZ4KhKN909NZv04/view"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/video.svg" width="14" height="14" valign="middle" /> <b>Video Demo (0:15)</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/utensils.svg" width="18" height="18" valign="middle" /> <a href="https://github.com/sksameera321/my-kiya.in">Restaurant Menu & Ordering System</a></h3>
-      <p>Interactive dining menu platform with food category navigation, dietary filtering, real-time price calculation, and mobile-first responsive layout.</p>
-      <p><strong>Stack:</strong> <code>JavaScript</code> • <code>CSS Grid / Flexbox</code> • <code>DOM Manipulation</code></p>
-      <p>
-        <a href="https://github.com/sksameera321/my-kiya.in"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a> &bull;
-        <a href="https://drive.google.com/file/d/12rQlzYPinf89SOhVtE6lbwoPuD80IWwC/view"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/video.svg" width="14" height="14" valign="middle" /> <b>Video Demo (0:24)</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/gamepad-2.svg" width="18" height="18" valign="middle" /> <a href="https://github.com/sksameera321/hub">Game Hub Arcade Portal</a></h3>
-      <p>Curated browser gaming portal featuring active state management, responsive canvas and DOM rendering, and persistent high scores.</p>
-      <p><strong>Stack:</strong> <code>JavaScript</code> • <code>Canvas API</code> • <code>Game Loops</code> • <code>CSS Animations</code></p>
-      <p>
-        <a href="https://github.com/sksameera321/hub"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a> &bull;
-        <a href="https://drive.google.com/file/d/1Ia3XCRzb9veiDdnWv--5ELKrrxatajaT/view"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/video.svg" width="14" height="14" valign="middle" /> <b>Video Demo (0:21)</b></a>
+        <a href="https://sksameera321.github.io/learnova-lms/"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/external-link.svg" width="14" height="14" valign="middle" /> <b>Live Demo</b></a> &bull;
+        <a href="https://github.com/sksameera321/learnova-lms"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a>
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/bot.svg" width="18" height="18" valign="middle" /> <a href="https://github.com/sksameera321/Ai-hub">AI Tools Directory Hub</a></h3>
-      <p>Developer index aggregating modern AI services and tools by domain, pricing model, and capabilities with dynamic client-side search filtering.</p>
-      <p><strong>Stack:</strong> <code>JavaScript</code> • <code>REST APIs</code> • <code>JSON Data</code> • <code>Responsive CSS</code></p>
+      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/shopping-bag.svg" width="18" height="18" valign="middle" /> <a href="https://sksameera321.github.io/nova-ecommerce/">NOVA Atelier — Luxury E-Commerce Salon</a></h3>
+      <p>High-fashion digital catalog engineered with React 19, DummyJSON REST API, INR (&#8377;) conversions, persistent cart drawer, and tactile physical UI controls.</p>
+      <p><strong>Stack:</strong> <code>React 19</code> • <code>Vite</code> • <code>Context API</code> • <code>DummyJSON API</code></p>
       <p>
-        <a href="https://github.com/sksameera321/Ai-hub"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a> &bull;
-        <a href="https://drive.google.com/file/d/1sZB9c1j2Q6eUAvfUvzlQ_1pTnuAzO-9f/view"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/video.svg" width="14" height="14" valign="middle" /> <b>Video Demo (0:20)</b></a>
+        <a href="https://sksameera321.github.io/nova-ecommerce/"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/external-link.svg" width="14" height="14" valign="middle" /> <b>Live Demo</b></a> &bull;
+        <a href="https://github.com/sksameera321/nova-ecommerce"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/dices.svg" width="18" height="18" valign="middle" /> <a href="https://github.com/sksameera321/my-game-project">Rock Paper Scissors Interactive</a></h3>
-      <p>Classic strategy game featuring algorithmic move generation, score tracking, fluid CSS keyframe animations, and full keyboard navigation support.</p>
-      <p><strong>Stack:</strong> <code>JavaScript</code> • <code>DOM Events</code> • <code>CSS Animations</code></p>
+      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/utensils.svg" width="18" height="18" valign="middle" /> <a href="https://sksameera321.github.io/recipe-discovery/">Savoria — Culinary Explorer & Assistant</a></h3>
+      <p>Recipe discovery platform integrating DummyJSON API with instant search, dynamic serving scaler recalculating quantities, ingredient checklist, and fullscreen Cook Mode.</p>
+      <p><strong>Stack:</strong> <code>Semantic HTML5</code> • <code>CSS3</code> • <code>Vanilla JS</code> • <code>REST API</code></p>
       <p>
-        <a href="https://github.com/sksameera321/my-game-project"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a> &bull;
-        <a href="https://drive.google.com/file/d/10ZMaAQo4xXNs3P36zQYvPwB21Pd2r3Fh/view"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/video.svg" width="14" height="14" valign="middle" /> <b>Video Demo (0:31)</b></a>
+        <a href="https://sksameera321.github.io/recipe-discovery/"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/external-link.svg" width="14" height="14" valign="middle" /> <b>Live Demo</b></a> &bull;
+        <a href="https://github.com/sksameera321/recipe-discovery"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/activity.svg" width="18" height="18" valign="middle" /> <a href="https://sksameera321.github.io/weather-application/">Atmosphere — Real-Time Weather Explorer</a></h3>
+      <p>Apple Weather-inspired meteorological explorer querying Open-Meteo REST API live with zero static mocks, dynamic solar arcs, 24h hourly curves, and 7-day extended forecasts.</p>
+      <p><strong>Stack:</strong> <code>HTML5</code> • <code>CSS Grid</code> • <code>Vanilla JS Modules</code> • <code>Open-Meteo API</code></p>
+      <p>
+        <a href="https://sksameera321.github.io/weather-application/"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/external-link.svg" width="14" height="14" valign="middle" /> <b>Live Demo</b></a> &bull;
+        <a href="https://github.com/sksameera321/weather-application"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/clock.svg" width="18" height="18" valign="middle" /> <a href="https://sksameera321.github.io/personal-productivity-dashboard/">FocusFlow OS — Personal Productivity Dashboard</a></h3>
+      <p>Student academic operating system featuring a Frosted Glassmorphism interface, customizable Pomodoro timer with audio cues, priority Eisenhower matrix, and habit tracking.</p>
+      <p><strong>Stack:</strong> <code>Semantic HTML5</code> • <code>Modern CSS3</code> • <code>Vanilla JS</code> • <code>LocalStorage</code></p>
+      <p>
+        <a href="https://sksameera321.github.io/personal-productivity-dashboard/"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/external-link.svg" width="14" height="14" valign="middle" /> <b>Live Demo</b></a> &bull;
+        <a href="https://github.com/sksameera321/personal-productivity-dashboard"><img src="https://raw.githubusercontent.com/sksameera321/sksameera321/main/icons/github.svg" width="14" height="14" valign="middle" /> <b>Source Code</b></a>
       </p>
     </td>
   </tr>
