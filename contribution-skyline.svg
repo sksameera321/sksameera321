@@ -1986,6 +1986,11 @@
     <polygon points="801.5,115.98 810,118.5 810,121.5 801.5,118.98" fill="#12161e" stroke="#1e2633" stroke-width="0.3" />
     <polygon points="808,112.2 816.5,114.72 810,118.5 801.5,115.98" fill="#181d26" stroke="#1e2633" stroke-width="0.5" />
   </g>
+  <g class="building">
+    <polygon points="801.5,123.7 808,119.92 808,122.92 801.5,126.7" fill="#0f1218" stroke="#1e2633" stroke-width="0.3" />
+    <polygon points="793,121.18 801.5,123.7 801.5,126.7 793,124.18" fill="#12161e" stroke="#1e2633" stroke-width="0.3" />
+    <polygon points="799.5,117.4 808,119.92 801.5,123.7 793,121.18" fill="#181d26" stroke="#1e2633" stroke-width="0.5" />
+  </g>
 
   </g>
 
